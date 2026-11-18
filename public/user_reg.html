@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+</head>
+<body>
+  <h1>User Registration</h1>
+
+  <form action="/user_reg_submit" method="post">
+    First Name: <input type="text" name="first_name" required><br><br>
+    Middle Name: <input type="text" name="middle_name"><br><br>
+    Last Name: <input type="text" name="last_name" required><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male" required> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other<br><br>
+
+    Date of Birth: <input type="date" name="dob" required><br><br>
+    Email: <input type="email" name="email" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+
+    Security Question:
+    <select name="security_question">
+      <option value="What is your pet's name?">What is your pet's name?</option>
+      <option value="What is your mother's maiden name?">What is your mother's maiden name?</option>
+      <option value="What was your first school?">What was your first school?</option>
+    </select><br><br>
+
+    Security Answer: <input type="text" name="security_answer" required><br><br>
+
+    Hobbies (comma separated):
+    <input type="text" name="hobbies" placeholder="cricket, music, reading"><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>

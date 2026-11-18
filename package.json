@@ -1,0 +1,17 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "exp_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node exp_server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
